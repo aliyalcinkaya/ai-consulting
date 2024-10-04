@@ -1,7 +1,7 @@
 <template>
-    <div class="bg-white px-6 py-32 lg:px-8">
+    <div class="bg-white px-6 py-8 lg:px-8">
         <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-            <p class="text-base font-semibold leading-7 text-indigo-600">Zapstream</p>
+            <p class="text-base font-semibold leading-7 text-indigo-600">Welcome to Zap Stream</p>
             <!-- <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"></h1> -->
             <div id="greeting" class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"></div>
             
@@ -14,7 +14,7 @@
             <div id="wistia-embed-container">&nbsp;</div>
             
             <div class="flex items-center justify-center">
-                <a href="https://zapflow.youcanbook.me" target="_blank" rel="noopener noreferrer">
+                <a href="https://zapstream.youcanbook.me/" target="_blank" rel="noopener noreferrer">
                     <button type="button" class="my-8 rounded-md bg-slate-900 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-slate-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                         Book Your Discovery Call
                     </button>

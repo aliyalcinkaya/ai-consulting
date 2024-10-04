@@ -12,11 +12,11 @@
             class="text-sm font-semibold leading-6 text-gray-900">{{ item.name }}</router-link>
         </div>
         <div class="flex flex-1 items-center justify-end gap-x-6">
-        <!--  <a href="#" class="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900">Log in</a> -->
+        <!--  <a href="#" class="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900">Log in</a> 
           <a href="X"
             class="rounded-md bg-slate-900 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-slate-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
             Book Your Free Consultation 
-          </a>
+          </a>-->
         </div>
         <div class="flex lg:hidden">
           <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
