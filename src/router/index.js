@@ -4,6 +4,7 @@ import AboutPage from '../components/AboutPage.vue'
 import ContactPage from '../components/ContactPage.vue'
 import TermsAndConditions from '@/components/TermsAndConditions.vue'
 import PrivacyPolicy from '@/components/PrivacyPolicy.vue'
+import Welcome from '@/components/WelcomePage.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: HomePage },
@@ -12,7 +13,7 @@ const routes = [
   { path: '/terms-and-conditions', name: 'terms and conditions', component: TermsAndConditions},
   { path: '/privacy-policy', name: 'privacy policy', component: PrivacyPolicy},
   { path: '/:pathMatch(.*)*', redirect: '/' },   // Add a catch-all route to redirect to home
-
+  { path: '/welcome', name: 'welcome', component: Welcome},
 ]
 
 const router = createRouter({
