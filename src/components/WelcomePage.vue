@@ -1,22 +1,18 @@
 <template>
-    <div class="bg-white px-6 py-8 lg:px-8">
-        <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-            <p class="text-base font-semibold leading-7 text-indigo-600">Welcome to Zap Stream</p>
-            <!-- <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"></h1> -->
-            <div id="greeting" class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"></div>
+    <div class="bg-white px-2 py-2 lg:px-2">
+        <div class="mx-auto max-w-6xl text-base leading-7 text-gray-700">
+           <!--  <p class="text-base font-semibold leading-7 text-indigo-600">Welcome to Zap Stream</p>
+            <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"></h1> -->
+            <div id="greeting" class="mt-2 mb-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"></div>
             
-            <p id="title-message" class="my-8 text-xl leading-8">Thank you for your interest in the Vendo Data ("App") Beta Program. These
-                Beta Program Terms ("Terms") govern your ("Beta user") involvement and usage of any public or private
-                beta programs ("Beta Program") created by Vendo Data (Vendo, “We”, “Us”) as well as your interaction any
-                App and consulting services during the Beta period ("Beta Services"). Your agreement to these terms is
-                required in order to partake in the Beta Program or utilise the Beta Services.</p>
+            <p id="title-message" class="mb-8 text-md sm:text-xl "> </p>
             
-            <div id="wistia-embed-container">&nbsp;</div>
+            <div id="wistia-embed-container"> </div>
             
             <div class="flex items-center justify-center">
                 <a href="https://zapstream.youcanbook.me/" target="_blank" rel="noopener noreferrer">
-                    <button type="button" class="my-8 rounded-md bg-slate-900 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-slate-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-                        Book Your Discovery Call
+                    <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold m-6 py-3 sm:py-4 px-8 sm:px-12 rounded">
+                        Schedule a Call
                     </button>
                 </a>
             </div>
