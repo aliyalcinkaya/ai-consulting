@@ -20,10 +20,6 @@
                     </button>
                 </a>
             </div>
-
-           
-
-
         </div>
     </div>
 </template>
@@ -32,6 +28,12 @@
 import { onMounted } from 'vue';
 
 onMounted(() => {
+    // Add the Wistia external script
+    const wistiaScript = document.createElement('script');
+    wistiaScript.src = "https://fast.wistia.com/assets/external/E-v1.js";
+    wistiaScript.async = true;
+    document.head.appendChild(wistiaScript);
+
     // Get parameters from URL
     const urlParams = new URLSearchParams(window.location.search);
     const videoId = urlParams.get('hashid') || 'knp4jqqpnb'; // Default to 'knp4jqqpnb' if not provided

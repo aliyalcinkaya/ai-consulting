@@ -4,7 +4,7 @@
         <div class="flex lg:flex-1">
           <a href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Vendo</span>
-            <img class="h-8 w-auto" src="../assets/vendo-logo-midnight-rgb.svg" alt="" />
+            <img class="h-16 w-auto" src="../assets/zap_stream_logo.png" alt="" />
           </a>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
@@ -15,7 +15,7 @@
         <!--  <a href="#" class="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900">Log in</a> -->
           <a href="X"
             class="rounded-md bg-slate-900 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-slate-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-            Get Your Free Consultation 
+            Book Your Free Consultation 
           </a>
         </div>
         <div class="flex lg:hidden">

@@ -640,16 +640,11 @@ export default {
             ],
             teamMembers: [
                 {
-                    name: 'Sinan Kaya',
-                    role: 'Co-Founder / CEO',
-                    imageUrl: 'https://i.pravatar.cc/250?img=65'
-                },
-                {
                     name: 'Yalcin Kaya',
                     role: 'Co-Founder / Business Consultant',
                     imageUrl: 'https://media.licdn.com/dms/image/v2/C4D03AQGIz-px49vbcQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516804766926?e=1730332800&v=beta&t=HZKDnb4kVH3nNhNtDROKjOuJKwQ99avFpzbC-AyIWlg'
                 },
-                {
+               /* {
                     name: 'Naveen Gupta',
                     role: 'Business Analyst',
                     imageUrl: 'https://i.pravatar.cc/250?img=68'
@@ -668,7 +663,7 @@ export default {
                     name: 'Onur Unlu',
                     role: 'Data Engineer',
                     imageUrl: 'https://i.pravatar.cc/250?img=52'
-                }
+                }*/
             ]
         }
     }
