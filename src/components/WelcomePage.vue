@@ -1,14 +1,12 @@
 <template>
     <div class="bg-white px-2 py-2 lg:px-2">
-        <div class="mx-auto max-w-6xl text-base leading-7 text-gray-700">
+        <div class="mx-auto max-w-4xl text-base leading-7 text-gray-700">
            <!--  <p class="text-base font-semibold leading-7 text-indigo-600">Welcome to Zap Stream</p>
             <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"></h1> -->
             <div id="greeting" class="mt-2 mb-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"></div>
             
-            <p id="title-message" class="mb-8 text-md sm:text-xl "> </p>
-            
+            <p id="title-message" class="mb-8 text-md sm:text-xl "> </p>    
             <div id="wistia-embed-container"> </div>
-            
             <div class="flex items-center justify-center">
                 <a href="https://zapstream.youcanbook.me/" target="_blank" rel="noopener noreferrer">
                     <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold m-6 py-3 sm:py-4 px-8 sm:px-12 rounded">
