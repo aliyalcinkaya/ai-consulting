@@ -3,8 +3,7 @@
         <div class="mx-auto max-w-4xl text-base leading-7 text-gray-700">
            <!--  <p class="text-base font-semibold leading-7 text-indigo-600">Welcome to Zap Stream</p>
             <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"></h1> -->
-            <div id="greeting" class="mt-2 mb-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"></div>
-            
+            <div id="greeting" class="mt-2 mb-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl capitalize"></div>
             <p id="title-message" class="mb-8 text-md sm:text-xl "> </p>    
             <div id="wistia-embed-container"> </div>
             <div class="flex items-center justify-center">
