@@ -12,8 +12,8 @@
                         Tailored AI solutions to streamline your operations and boost productivity.
                     </p>
                     <div class="mt-10 flex items-center justify-center gap-x-6">
-                        <a href="#"
-                            class="rounded-md bg-slate-900	 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-slate-800">
+                        <a
+                            class="rounded-md bg-slate-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-slate-800 lightbox-242710848738061">
                             Get Your Free Consultation
                         </a>
                         <!-- <a href="#" class="text-sm font-semibold leading-6 text-gray-900">
@@ -369,7 +369,7 @@
                             <p class="mt-2 text-lg/7 font-medium tracking-tight text-gray-950 max-lg:text-center">
                                 Security</p>
                             <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                                Your data is encrypted using industry best practices. 
+                                Your data is encrypted using industry best practices.
                             </p>
                         </div>
                         <div class="flex flex-1 items-center [container-type:inline-size] max-lg:py-6 lg:pb-2">
@@ -387,7 +387,7 @@
                             <p class="mt-2 text-lg/7 font-medium tracking-tight text-gray-950 max-lg:text-center">
                                 Integrated to your workflows</p>
                             <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                                No need to jump between apps, X can integrate to your existing tools.</p>
+                                No need to jump between apps, Zap Stream can integrate to your existing tools.</p>
                         </div>
                         <div class="relative min-h-[30rem] w-full grow">
                             <div
@@ -396,12 +396,19 @@
                                     <div class="-mb-px flex text-sm font-medium leading-6 text-gray-400">
                                         <div
                                             class="border-b border-r border-b-white/20 border-r-white/10 bg-white/5 px-4 py-2 text-white">
-                                            NotificationSetting.jsx</div>
-                                        <div class="border-r border-gray-600/10 px-4 py-2">App.jsx</div>
+                                            Automations.jsx</div>
+                                        <div class="border-r border-gray-600/10 px-4 py-2">Business_Logic.jsx</div>
                                     </div>
                                 </div>
-                                <div class="px-6 pb-14 pt-6">
-                                    <!-- Your code example -->
+                                <div class="px-6 pb-14 pt-6 text-white">
+                                    <p class="code-block">
+                                        1. Processing Emails [Gmail] <br>
+                                        2. Updating CRM [Hubspot] <br>
+                                        3. Creating Proposals [Docs] <br>
+                                        4. Pending Approvals<br>
+                                        5. Sending Proposals [Gmail] <br>
+                                    </p>                      
+
                                 </div>
                             </div>
                         </div>
@@ -413,10 +420,7 @@
         </div>
     </div>
 
-
     <!-- How it works-->
-
-
     <div class="overflow-hidden bg-white py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div
@@ -427,69 +431,69 @@
                         <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">How It Works</p>
                         <!--  <p class="mt-6 text-lg leading-8 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
             -->
-            <div>
-    <ol role="list" class="overflow-hidden py-12">
-        <li v-for="(step, stepIdx) in steps" :key="step.name"
-            :class="[stepIdx !== steps.length - 1 ? 'pb-10' : '', 'relative']">
-            <template v-if="step.status === 'complete'">
-                <div v-if="stepIdx !== steps.length - 1"
-                    class="absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-indigo-600"
-                    aria-hidden="true" />
-                <div class="group relative flex items-start">
-                    <span class="flex h-9 items-center">
-                        <span
-                            class="relative z-10 flex h-8 w-8 items-center justify-center rounded-full bg-indigo-600 group-hover:bg-indigo-800">
-                            <CheckIcon class="h-5 w-5 text-white" aria-hidden="true" />
-                        </span>
-                    </span>
-                    <span class="ml-4 flex min-w-0 flex-col">
-                        <span class="text-sm font-medium">{{ step.name }}</span>
-                        <span class="text-sm text-gray-500">{{ step.description }}</span>
-                    </span>
-                </div>
-            </template>
-            <template v-else-if="step.status === 'current'">
-                <div v-if="stepIdx !== steps.length - 1"
-                    class="absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-gray-300"
-                    aria-hidden="true" />
-                <div class="group relative flex items-start" aria-current="step">
-                    <span class="flex h-9 items-center" aria-hidden="true">
-                        <span
-                            class="relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-2 border-indigo-600 bg-white">
-                            <span class="h-2.5 w-2.5 rounded-full bg-indigo-600" />
-                        </span>
-                    </span>
-                    <span class="ml-4 flex min-w-0 flex-col">
-                        <span class="text-sm font-medium text-indigo-600">{{ step.name }}</span>
-                        <span class="text-sm text-gray-500">{{ step.description }}</span>
-                    </span>
-                </div>
-            </template>
-            <template v-else>
-                <div v-if="stepIdx !== steps.length - 1"
-                    class="absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-gray-300"
-                    aria-hidden="true" />
-                <div class="group relative flex items-start">
-                    <span class="flex h-9 items-center" aria-hidden="true">
-                        <span
-                            class="relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-2 border-gray-300 bg-white group-hover:border-gray-400">
-                            <span
-                                class="h-2.5 w-2.5 rounded-full bg-transparent group-hover:bg-gray-300" />
-                        </span>
-                    </span>
-                    <span class="ml-4 flex min-w-0 flex-col">
-                        <span class="text-sm font-medium text-gray-500">{{ step.name }}</span>
-                        <span class="text-sm text-gray-500">{{ step.description }}</span>
-                    </span>
-                </div>
-            </template>
-        </li>
-    </ol>
-</div>
+                        <div>
+                            <ol role="list" class="overflow-hidden py-12">
+                                <li v-for="(step, stepIdx) in steps" :key="step.name"
+                                    :class="[stepIdx !== steps.length - 1 ? 'pb-10' : '', 'relative']">
+                                    <template v-if="step.status === 'complete'">
+                                        <div v-if="stepIdx !== steps.length - 1"
+                                            class="absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-indigo-600"
+                                            aria-hidden="true" />
+                                        <div class="group relative flex items-start">
+                                            <span class="flex h-9 items-center">
+                                                <span
+                                                    class="relative z-10 flex h-8 w-8 items-center justify-center rounded-full bg-indigo-600 group-hover:bg-indigo-800">
+                                                    <CheckIcon class="h-5 w-5 text-white" aria-hidden="true" />
+                                                </span>
+                                            </span>
+                                            <span class="ml-4 flex min-w-0 flex-col">
+                                                <span class="text-sm font-medium">{{ step.name }}</span>
+                                                <span class="text-sm text-gray-500">{{ step.description }}</span>
+                                            </span>
+                                        </div>
+                                    </template>
+                                    <template v-else-if="step.status === 'current'">
+                                        <div v-if="stepIdx !== steps.length - 1"
+                                            class="absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-gray-300"
+                                            aria-hidden="true" />
+                                        <div class="group relative flex items-start" aria-current="step">
+                                            <span class="flex h-9 items-center" aria-hidden="true">
+                                                <span
+                                                    class="relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-2 border-indigo-600 bg-white">
+                                                    <span class="h-2.5 w-2.5 rounded-full bg-indigo-600" />
+                                                </span>
+                                            </span>
+                                            <span class="ml-4 flex min-w-0 flex-col">
+                                                <span class="text-sm font-medium text-indigo-600">{{ step.name }}</span>
+                                                <span class="text-sm text-gray-500">{{ step.description }}</span>
+                                            </span>
+                                        </div>
+                                    </template>
+                                    <template v-else>
+                                        <div v-if="stepIdx !== steps.length - 1"
+                                            class="absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-gray-300"
+                                            aria-hidden="true" />
+                                        <div class="group relative flex items-start">
+                                            <span class="flex h-9 items-center" aria-hidden="true">
+                                                <span
+                                                    class="relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-2 border-gray-300 bg-white group-hover:border-gray-400">
+                                                    <span
+                                                        class="h-2.5 w-2.5 rounded-full bg-transparent group-hover:bg-gray-300" />
+                                                </span>
+                                            </span>
+                                            <span class="ml-4 flex min-w-0 flex-col">
+                                                <span class="text-sm font-medium text-gray-500">{{ step.name }}</span>
+                                                <span class="text-sm text-gray-500">{{ step.description }}</span>
+                                            </span>
+                                        </div>
+                                    </template>
+                                </li>
+                            </ol>
+                        </div>
                     </div>
                 </div>
                 <div class="flex items-start justify-end lg:order-first">
-                    <img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+                    <img src="../assets/Leonardo_Kino_XL_Create_a_consultant_that_is_holding_a_project_0.jpg"
                         alt="Product screenshot"
                         class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
                         width="2432" height="1442" />
@@ -507,11 +511,9 @@
                     <img class="h-12 self-start" src="https://tailwindui.com/img/logos/tuple-logo-white.svg" alt="" />
                     <figure class="mt-10 flex flex-auto flex-col justify-between">
                         <blockquote class="text-lg leading-8 text-white">
-                            <p>“Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent
-                                at a.
-                                Ornare arcu gravida natoque erat et cursus tortor consequat at. Vulputate gravida sociis
-                                enim nullam ultricies habitant malesuada lorem ac. Tincidunt urna dui pellentesque
-                                sagittis.”</p>
+                            <p>“Thanks to Zap Stream, our invoice processing automations have significantly improved,
+                                saving
+                                us 10 hours per week. This has allowed us to focus more on strategic tasks.”</p>
                         </blockquote>
                         <figcaption class="mt-10 flex items-center gap-x-6">
                             <img class="h-14 w-14 rounded-full bg-gray-800"
@@ -529,9 +531,9 @@
                     <img class="h-12 self-start" src="https://tailwindui.com/img/logos/reform-logo-white.svg" alt="" />
                     <figure class="mt-10 flex flex-auto flex-col justify-between">
                         <blockquote class="text-lg leading-8 text-white">
-                            <p>“Excepteur veniam labore ullamco eiusmod. Pariatur consequat proident duis dolore nulla
-                                veniam reprehenderit nisi officia voluptate incididunt exercitation exercitation elit.
-                                Nostrud veniam sint dolor nisi ullamco.”</p>
+                            <p>“Zap Stream has revolutionized our proposal creation process, saving us 14 hours per
+                                week.
+                                This efficiency boost has been a game-changer for our team.”</p>
                         </blockquote>
                         <figcaption class="mt-10 flex items-center gap-x-6">
                             <img class="h-14 w-14 rounded-full bg-gray-800"
@@ -548,7 +550,7 @@
         </div>
     </section>
 
-    <!-- Meet the team-->
+    <!-- Meet the team
     <div class="bg-white py-24 sm:py-32">
         <div class="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
             <div class="max-w-2xl">
@@ -570,6 +572,7 @@
             </ul>
         </div>
     </div>
+    -->
 
     <!-- Get Started  Final Call Out-->
     <div class="bg-slate-100">
@@ -585,7 +588,8 @@
                     <br>
                 </p>
                 <div class="mt-10 flex items-center justify-center gap-x-6">
-                    <a href="#" class="rounded-md bg-slate-900	 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-slate-800">
+                    <a
+                        class="rounded-md bg-slate-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-slate-800 lightbox-242710848738061">
                         Get Your Free Consultation
                     </a>
                     <!-- <a href="#" class="text-sm font-semibold leading-6 text-gray-900">
@@ -599,6 +603,8 @@
 
 
 <script>
+/* global JotformFeedback */ // Declare JotformFeedback as a global variable
+
 import { CheckIcon } from '@heroicons/vue/20/solid'
 
 export default {
@@ -610,26 +616,26 @@ export default {
         return {
             backgroundImage: require('@/assets/vendo-integrations.png'),
             features: [
-                { name: 'Customer Service Automation', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Data Analysis and Insights', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Marketing Automation', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Sales Assistance', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Inventory Management', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Supply Chain Optimization', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Predictive Maintenance', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Fraud Detection', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Personalized Recommendations', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Scheduling and Calendar Management', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Human Resources Automation', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Document Processing', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Email Automation', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Financial Forecasting', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Competitive Intelligence', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Quality Control', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Voice Assistants', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Compliance Monitoring', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Risk Assessment', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { name: 'Social Media Management', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+                { name: 'Customer Service Automation', description: 'Enhance customer interactions with AI-driven chatbots and virtual assistants, providing 24/7 support and personalized responses.' },
+                { name: 'Data Analysis and Insights', description: 'Utilize AI to analyze large datasets, uncover patterns, and generate actionable insights for strategic decision-making.' },
+                { name: 'Marketing Automation', description: 'Automate marketing campaigns with AI to target the right audience, optimize ad spend, and increase conversion rates.' },
+                { name: 'Sales Assistance', description: 'Empower your sales team with AI tools that provide lead scoring, predictive analytics, and personalized sales strategies.' },
+                { name: 'Inventory Management', description: 'Optimize stock levels and reduce waste with AI-powered demand forecasting and automated replenishment systems.' },
+                { name: 'Supply Chain Optimization', description: 'Streamline supply chain operations with AI to improve efficiency, reduce costs, and enhance supplier relationships.' },
+                { name: 'Predictive Maintenance', description: 'Prevent equipment failures and reduce downtime with AI-driven predictive maintenance solutions.' },
+                { name: 'Fraud Detection', description: 'Protect your business with AI algorithms that detect and prevent fraudulent activities in real-time.' },
+                { name: 'Personalized Recommendations', description: 'Increase customer engagement with AI-powered recommendation engines that deliver personalized product suggestions.' },
+                { name: 'Scheduling and Calendar Management', description: 'Automate scheduling tasks with AI to optimize time management and improve productivity.' },
+                { name: 'Human Resources Automation', description: 'Streamline HR processes with AI, from recruitment and onboarding to performance management and employee engagement.' },
+                { name: 'Document Processing', description: 'Automate document handling with AI to improve accuracy, speed, and compliance in data processing.' },
+                { name: 'Email Automation', description: 'Enhance communication efficiency with AI-driven email automation for personalized and timely responses.' },
+                { name: 'Financial Forecasting', description: 'Leverage AI to predict financial trends, optimize budgeting, and improve financial planning accuracy.' },
+                { name: 'Competitive Intelligence', description: 'Gain a competitive edge with AI tools that analyze market trends and competitor strategies.' },
+                { name: 'Quality Control', description: 'Ensure product quality with AI-powered inspection systems that detect defects and ensure compliance.' },
+                { name: 'Voice Assistants', description: 'Integrate AI voice assistants to improve user interaction and accessibility across platforms.' },
+                { name: 'Compliance Monitoring', description: 'Automate compliance checks with AI to ensure adherence to regulations and reduce risk.' },
+                { name: 'Risk Assessment', description: 'Utilize AI to identify and mitigate potential risks, enhancing business resilience and security.' },
+                { name: 'Social Media Management', description: 'Optimize social media presence with AI tools that automate content scheduling, engagement, and analytics.' },
             ],
             steps: [
                 { name: 'Initial Consultation', description: 'Discuss your business needs and automation goals.', href: '', status: 'current' }, //or can be complete
@@ -644,47 +650,65 @@ export default {
                     role: 'Co-Founder / Business Consultant',
                     imageUrl: 'https://media.licdn.com/dms/image/v2/C4D03AQGIz-px49vbcQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516804766926?e=1730332800&v=beta&t=HZKDnb4kVH3nNhNtDROKjOuJKwQ99avFpzbC-AyIWlg'
                 },
-               /* {
-                    name: 'Naveen Gupta',
-                    role: 'Business Analyst',
-                    imageUrl: 'https://i.pravatar.cc/250?img=68'
-                },
-                {
-                    name: 'Soumya Bhatt',
-                    role: 'AI Engineer',
-                    imageUrl: 'https://i.pravatar.cc/250?img=48'
-                },
-                {
-                    name: 'Vivek Bhusal',
-                    role: 'AI Engineer',
-                    imageUrl: 'https://i.pravatar.cc/250?img=59'
-                },
-                {
-                    name: 'Onur Unlu',
-                    role: 'Data Engineer',
-                    imageUrl: 'https://i.pravatar.cc/250?img=52'
-                }*/
+                /* {
+                     name: 'Naveen Gupta',
+                     role: 'Business Analyst',
+                     imageUrl: 'https://i.pravatar.cc/250?img=68'
+                 },
+                 {
+                     name: 'Soumya Bhatt',
+                     role: 'AI Engineer',
+                     imageUrl: 'https://i.pravatar.cc/250?img=48'
+                 },
+                 {
+                     name: 'Vivek Bhusal',
+                     role: 'AI Engineer',
+                     imageUrl: 'https://i.pravatar.cc/250?img=59'
+                 },
+                 {
+                     name: 'Onur Unlu',
+                     role: 'Data Engineer',
+                     imageUrl: 'https://i.pravatar.cc/250?img=52'
+                 }*/
             ]
         }
+    },
+    mounted() {
+        // Load Jotform scripts
+        const jotformScript1 = document.createElement('script');
+        jotformScript1.src = "https://form.jotform.com/static/feedback2.js";
+        jotformScript1.type = "text/javascript";
+        document.head.appendChild(jotformScript1);
+
+        const jotformScript2 = document.createElement('script');
+        jotformScript2.src = 'https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js';
+        document.head.appendChild(jotformScript2);
+
+        jotformScript1.onload = () => {
+            new JotformFeedback({
+                formId: '242710848738061',
+                base: 'https://form.jotform.com/',
+                windowTitle: 'AI Solutions Enquiry',
+                backgroundColor: '#FFA500',
+                fontColor: '#FFFFFF',
+                type: 'false',
+                height: 500,
+                width: 700,
+                openOnLoad: false
+            });
+        };
+
+        jotformScript2.onload = () => {
+            window.jotformEmbedHandler("iframe[id='242710848738061']", "https://form.jotform.com/");
+        };
     }
 }
-
-
-
 </script>
 
-<style scoped>
-@keyframes moveBackground {
-    0% {
-        background-position: 0 0;
+<!-- Add this CSS to your <style> section or a separate CSS file -->
+<style>
+    .code-block {
+        font-family: 'Courier New', Courier, monospace;
+        white-space: pre-wrap; /* Ensures the code wraps */
     }
-
-    100% {
-        background-position: 1200px 0;
-    }
-}
-
-.bg-image-animation {
-    animation: moveBackground 240s linear infinite;
-}
 </style>

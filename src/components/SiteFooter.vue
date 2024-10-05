@@ -1,13 +1,14 @@
 <template>
-    <footer class="bg-gray-900" aria-labelledby="footer-heading">
+  <footer class="bg-gray-900" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8">
-          <img class="h-7" src="../assets/vendo-logo-mark-electric-rgb.svg" alt="Company name">
-          <p class="text-sm leading-6 text-gray-300">On a mission to empower businesses to make better decisions.</p>
-        
-         <!-- Social Media  
+          <img class="h-10" src="../assets/zap_stream_logo.png" alt="Company name">
+          <p class="text-sm leading-6 text-gray-300">We are on a mission to improve productivity one business at a time.
+          </p>
+
+          <!-- Social Media  
           <div class="flex space-x-6">
             <a href="#" class="text-gray-500 hover:text-gray-400">
               <span class="sr-only">Facebook</span>
@@ -49,17 +50,14 @@
               </svg>
             </a>
           </div>
-
           -->
         </div>
 
-        
-        <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
 
-         
+        <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
           <div class="md:grid md:grid-cols-2 md:gap-8">
 
-             <!-- 
+            <!-- 
             <div>
               <h3 class="text-sm font-semibold leading-6 text-white">Solutions</h3>
               <ul role="list" class="mt-6 space-y-4">
@@ -78,22 +76,28 @@
               </ul>
             </div>
 
-          --> 
+          -->
+
+            <!-- Support 
             <div class="mt-10 md:mt-0">
               <h3 class="text-sm font-semibold leading-6 text-white">Support</h3>
               <ul role="list" class="mt-6 space-y-4">
-              <!--   <li>
+                <li>
                   <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Pricing</a>
-                </li> -->
+                </li>
                 <li>
                   <a href="https://docs.vendodata.com/en/" class="text-sm leading-6 text-gray-300 hover:text-white">Documentation</a>
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="md:grid md:grid-cols-2 md:gap-8">
+            -->
 
-            <!-- 
+          </div>
+          
+
+            <div class="md:grid md:grid-cols-2 md:gap-8">
+
+              <!-- 
             <div>
               <h3 class="text-sm font-semibold leading-6 text-white">Company</h3>
               <ul role="list" class="mt-6 space-y-4">
@@ -116,43 +120,43 @@
             </div>
 
             -->
-            <div class="mt-10 md:mt-0">
-              <h3 class="text-sm font-semibold leading-6 text-white">Legal</h3>
-              <ul role="list" class="mt-6 space-y-4">
-                <li>
-                  <a href="/privacy-policy" class="text-sm leading-6 text-gray-300 hover:text-white">
-                    Privacy</a>
-                </li>
-                <li>
-                  <a href="/terms-and-conditions" class="text-sm leading-6 text-gray-300 hover:text-white">
-                    Terms of Service
-                  </a>
-                </li>
-              </ul>
+              <div class="mt-10 md:mt-0">
+                <h3 class="text-sm font-semibold leading-6 text-white">Legal</h3>
+                <ul role="list" class="mt-6 space-y-4">
+                  <li>
+                    <a href="/privacy-policy" class="text-sm leading-6 text-gray-300 hover:text-white">
+                      Privacy</a>
+                  </li>
+                  <li>
+                    <a href="/terms-and-conditions" class="text-sm leading-6 text-gray-300 hover:text-white">
+                      Terms of Service
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-        <p class="text-xs leading-5 text-gray-400">	&copy; 2024 Company X, Inc. All rights reserved.</p>
+        <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
+          <p class="text-xs leading-5 text-gray-400"> &copy; 2024 Zap Stream, Inc. All rights reserved.</p>
+        </div>
       </div>
-    </div>
   </footer>
-  </template>
-  
-  <script setup>
-    // You can add any setup logic here if needed
-  </script>
-  
-  <style scoped>
-  .footer {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-  }
-  </style> 
+</template>
+
+<script setup>
+// You can add any setup logic here if needed
+</script>
+
+<style scoped>
+.footer {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+</style>

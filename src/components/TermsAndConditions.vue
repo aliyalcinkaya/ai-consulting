@@ -1,12 +1,12 @@
 <template>
     <div class="bg-white px-6 py-32 lg:px-8">
         <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-            <p class="text-base font-semibold leading-7 text-indigo-600">Vendo Data</p>
+            <p class="text-base font-semibold leading-7 text-indigo-600">Zap Stream</p>
             <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Terms of
                 Service (Beta)</h1>
-            <p class="mt-6 text-xl leading-8">Thank you for your interest in the Vendo Data ("App") Beta Program. These
+            <p class="mt-6 text-xl leading-8">Thank you for your interest in the Zap Stream ("App") Beta Program. These
                 Beta Program Terms ("Terms") govern your ("Beta user") involvement and usage of any public or private
-                beta programs ("Beta Program") created by Vendo Data (Vendo, “We”, “Us”) as well as your interaction any
+                beta programs ("Beta Program") created by Zap Stream (Zap Stream, “We”, “Us”) as well as your interaction any
                 App and consulting services during the Beta period ("Beta Services"). Your agreement to these terms is
                 required in order to partake in the Beta Program or utilise the Beta Services.</p>
             
@@ -29,7 +29,7 @@
                 <h3 class="font-bold mt-4">3. Feedback</h3>
 
                 <p>We rely on your input for the improvement of the Beta Services. As a participant in our Beta
-                    Programs, you agree to provide us with feedback which shall become the property of Vendo Data.</p>
+                    Programs, you agree to provide us with feedback which shall become the property of Zap Stream.</p>
 
                 <h3 class="font-bold mt-4">4. Confidentiality and Non-Disclosure</h3>
 
@@ -51,7 +51,7 @@
                 <h3 class="font-bold mt-4">6. Termination</h3>
 
                 <p>You may terminate this Agreement at any point by discontinuing the use of the Beta Services and
-                    informing Vendo Data of your desire to withdraw from the Beta Program</p>
+                    informing Zap Stream of your desire to withdraw from the Beta Program</p>
 
                 <p>We retain the right to modify or completely cancel the Beta Program at our discretion, with or
                     without prior notice, and without any liability to you.</p>
