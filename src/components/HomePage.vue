@@ -1,20 +1,19 @@
 <template>
     <!-- Hero -->
-    <div class="relative isolate pt-14"> <!-- removed isolate-->
-        <div class="py-24 sm:py-32 lg:pb-40">
+    <div class="relative isolate "> <!-- removed isolate-->
+        <div class="py-24 sm:py-24 lg:pb-40">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="text-center">
                     <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                        Automate Your Business with <br>
-                        Custom AI Agents
+                        Automate Your Business with Custom AI Agents
                     </h1>
                     <p class="mt-6 text-lg leading-8 text-gray-600">
                         Tailored AI solutions to streamline your operations and boost productivity.
                     </p>
                     <div class="mt-10 flex items-center justify-center gap-x-6">
                         <a
-                            class="rounded-md bg-slate-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-slate-800 lightbox-242710848738061">
-                            Get Your Free Consultation
+                            class="rounded-md bg-slate-900 py-3 sm:py-4 px-8 sm:px-12 text-md font-semibold text-white shadow-sm hover:bg-slate-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-slate-800 lightbox-242710848738061">
+                            Share Your Automation Idea
                         </a>
                         <!-- <a href="#" class="text-sm font-semibold leading-6 text-gray-900">
                             Watch Demo <span aria-hidden="true">→</span> 
@@ -582,15 +581,12 @@
                     Ready to Transform Your Business?
                 </h2>
                 <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
-                    Get in touch with us today
-                    <br>
-                    Schedule your free consultation
-                    <br>
+                    Get in touch with us today. Schedule your free consultation
                 </p>
                 <div class="mt-10 flex items-center justify-center gap-x-6">
                     <a
-                        class="rounded-md bg-slate-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-slate-800 lightbox-242710848738061">
-                        Get Your Free Consultation
+                        class="rounded-md bg-slate-900 py-3 sm:py-4 px-8 sm:px-12 text-md font-semibold text-white shadow-sm hover:bg-slate-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-slate-800 lightbox-242710848738061">
+                        Share Your Automation Idea
                     </a>
                     <!-- <a href="#" class="text-sm font-semibold leading-6 text-gray-900">
                         Watch Demo <span  aria-hidden="true">→</span>
